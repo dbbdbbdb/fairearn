@@ -1,0 +1,15 @@
+#Button{
+    padding: 12px 20px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#Button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 20s;
+    border: 2px solid;
+}

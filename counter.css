@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+}
+label{
+    font-size: 90px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+button{
+    position: relative;
+    padding: 0px 30px;
+}

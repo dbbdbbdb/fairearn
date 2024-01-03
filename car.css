@@ -1,0 +1,16 @@
+button{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 400px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+button:active{
+    background-color: purple;
+}

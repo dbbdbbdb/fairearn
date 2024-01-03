@@ -1,0 +1,18 @@
+button{
+    height: 50px;
+    width: 140px;
+    border: none;
+    border-radius: 7px;
+    font-size: larger;
+    background-color: orangered;
+}
+button:active{
+    background-color: white;
+    transition: 0.1s;
+    border: 2px solid;
+    border-color: orange;
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}

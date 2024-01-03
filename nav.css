@@ -1,0 +1,144 @@
+body{
+    background-color: #000;
+    margin: 0px
+}
+h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+.navbar{
+    background-color: red;
+    display: flex;
+}
+.navbar a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul{
+    margin-left: 590px;
+    padding: 0px 35px;
+}
+.navbar li{
+    padding: 12px 15px;
+    display: inline-block;
+}
+h3{
+    color: white;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color: white;
+}
+.sp{
+    height: 335px;
+    border-radius: 50%;
+    position: absolute;
+    left: 760px;
+    bottom: 30px;
+}
+.navbar a:hover{
+    color: black;
+}
+p{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    font-size: x-large;
+}
+h2{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    font-size: 70px;
+}
+h3{
+    color: red;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    font-size: xx-large;
+}
+h1:hover{
+    cursor: pointer;
+    animation-name: colorchanger;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchanger{
+    20%{
+        color: white;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: black;
+    }
+    80%{
+        color: green;
+    }
+    100%{
+        color: white;
+    }
+}
+.b1{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    background-color: white;
+}
+.b2{
+    position: absolute;
+    bottom: 100px;
+    left: 170px;
+    background-color: red;
+    color: white;
+    border-color: white;
+}
+button{
+    padding: 12px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.b1:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    transition: 0.5s;
+}
+.b2:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    transition: 0.5s;
+}
+.sp:hover{
+    height: 340px;
+    transition: 0.5s;
+}
+.icons{
+    position: absolute;
+    bottom: 120px;
+    left: 50px;
+}
+.fa-brands.fa-x-twitter.fa-2x{
+    color: white;
+}
+.fa-brands.fa-tiktok.fa-2x{
+    color: red;
+    padding-left: 35px;
+}
+.fa-brands.fa-facebook.fa-2x{
+    color: hsl(240, 88%, 62%);
+    padding-left: 35px;
+}
+.fa-solid.fa-gamepad.fa-2x{
+    color: red;
+    padding-left: 35px;
+}

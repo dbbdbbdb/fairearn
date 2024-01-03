@@ -1,0 +1,206 @@
+body{
+    background-image: url(black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    height: 450px;
+    width: 550px;
+    position: absolute;
+    left: 400px;
+    top: 80px;
+}
+.search{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.email{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.phone{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.pass{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.search input{
+    padding: 12px 155px;
+}
+.search label{
+    font-size: 30px;
+}
+.email input{
+    padding: 12px 155px;
+}
+.email label{
+    font-size: 30px;
+}
+.phone input{
+    padding: 12px 155px;
+}
+.phone label{
+    font-size: 30px;
+}
+.pass input{
+    padding: 12px 155px;
+}
+.pass label{
+    font-size: 30px;
+}
+input::placeholder{
+    color: yellow;
+    font-size: 30px;
+}
+label{
+    color: white;
+}
+input{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: xx-large;
+}
+.ans{
+    margin-top: 15px;
+    position: absolute;
+    left: 284px;
+}
+button{
+    padding: 15px 40px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 6px;
+    background-color: yellow;
+    font-size: large
+}
+button:hover{
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:active{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+h1{
+    font-weight: bolder;
+    color:white;
+    font-size: 50px;
+}
+@media only screen and (max-width: 768px){
+    body {
+        background-image: url(black.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    
+    .container {
+        height: 450px;
+        width: 80%; /* Adjusted width for responsiveness */
+        max-width: 550px; /* Added max-width for responsiveness */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .search,
+    .email,
+    .phone,
+    .pass {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .search input,
+    .email input,
+    .phone input,
+    .pass input {
+        width: 100%; /* Made input width 100% for responsiveness */
+        padding: 12px;
+        box-sizing: border-box; /* Ensures padding and border don't increase element width */
+    }
+    
+    .search label,
+    .email label,
+    .phone label,
+    .pass label {
+        font-size: 24px; /* Adjusted font size for responsiveness */
+    }
+    
+    input::placeholder {
+        color: yellow;
+        font-size: 24px; /* Adjusted font size for responsiveness */
+    }
+    
+    label {
+        color: white;
+    }
+    
+    input {
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 24px; /* Adjusted font size for responsiveness */
+    }
+    
+    .ans {
+        margin-top: 15px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    button {
+        padding: 15px 40px;
+        border: 2px solid;
+        border-color: black;
+        border-radius: 6px;
+        background-color: yellow;
+        font-size: 18px; /* Adjusted font size for responsiveness */
+    }
+    
+    button:hover {
+        background-color: black;
+        color: yellow;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    button:active {
+        background-color: aliceblue;
+        color: black;
+        cursor: pointer;
+    }
+    
+    h1 {
+        font-weight: bolder;
+        color: white;
+        font-size: 36px; /* Adjusted font size for responsiveness */
+    }
+    
+    /* Media query for small screens (e.g., mobile phones) */
+    @media only screen and (max-width: 600px) {
+        .container {
+            width: 90%;
+        }
+    
+        input,
+        button {
+            font-size: 16px;
+        }
+    
+        h1 {
+            font-size: 28px;
+        }
+    }
+    
+}
